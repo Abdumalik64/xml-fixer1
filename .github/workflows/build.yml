@@ -23,7 +23,7 @@ jobs:
 
       - name: Build binary
         run: |
-          pyinstaller --onefile xml_fix.py
+          pyinstaller --onefile xml-fix.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
